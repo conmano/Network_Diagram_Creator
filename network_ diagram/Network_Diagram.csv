@@ -1,0 +1,15 @@
+Computer Names, IP,Connection,Machine Type
+Firewall,10.10.10.1,null,Firewall
+-,null,null,null
+Interface 1,10.10.10.2,Firewall,Interface
+Interface 2,10.10.10.3,Firewall,Interface
+Switch 3,10.10.10.4,Firewall,Switch
+St Pats,10.10.10.5,Firewall,Terminal
+-,null,null,
+Spectrum,null,Switch 3,Terminal
+Surg,null,Interface 1,Terminal
+-,,,
+Iphone,null,Surg,Terminal
+-,,,
+F key,null,Iphone,Terminal
+test,10.0.0.2,Iphone,Bob
